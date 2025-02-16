@@ -1,9 +1,10 @@
 body{
     height:200vh;
     width: 100vw;
+    margin: 0px;
 }
+/* nevigation */
 .head{
-    height:400px;
     width: 100vw;
 }
 
@@ -33,6 +34,8 @@ body{
     text-decoration: none;
     color: black;
     transition: scale 0.2s;
+    border-radius: 5px;
+    text-align: center;
 }
 .nav-button:hover{
     scale: 1.1;
@@ -43,11 +46,95 @@ body{
     width: 100vw;
     overflow: scroll;
     overflow-x: hidden;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 100;
+    margin: 0px 0px;
+    padding-right: 10px;
+}
+
+/* reviews */
+.reviews{
+    height: 220px;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    overflow-y: hidden;
+   
+}
+
+.rev{
+    height: 170px;
+    width: 200px;
+    background-color:lightblue;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* overflow: scroll; */
+}
+
+.r-img{
+    display: flex;
+    justify-content:center ;
+    height: 60px;
+}
+.r-text{
+    text-align: center;
+}
+.r-name{
+    text-align: center;
+}
+
+/* form */
+.form{
+    background-color: lightblue;
+    padding-top: 2px;
+}
+
+.form-group{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+
+}
+.form-group input:focus{
+    outline: none;
+    border: 2px solid rgb(43, 128, 156);
 }
 
 
+/* merch */
 
+.merch{
+    height: 300px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.merch-head{
+    margin: 5px;
+}
+.item{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:white solid 3px
+}
+.item img{
+    height: 200px;
+    width: 100px;
+    object-fit: cover;
+}
 
-
+.item a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+}

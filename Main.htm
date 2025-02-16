@@ -6,45 +6,207 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fit-Bud</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="LOGO (1).png" type="image/x-icon">
 </head>
 
 <body>
+
+    <!-- head -->
+
     <div class="head">
         <header>
             <div class="Headding">Fit Bud</div>
             <div class="nav">
                 <a class="nav-button" href="Main.htm">Home</a>
-                <a class="nav-button" href="About.htm">About</a>
-                <a class="nav-button" href="Shop.htm">Shop</a>
-                <a class="nav-button" href="booking.htm">Booking</a>
+                <a class="nav-button" href="#about">About</a>
+                <a class="nav-button" href="#Shop">Shop</a>
+                <a class="nav-button" href="#Booking">Booking</a>
             </div>
         </header>
+<!--About-->
+    <section id="about">
+            <div class="intro" style="display: flex;">
+                <div>
+                    <img src="LOGO.png" alt="logo image" height="200">
+                </div>
+                <div class="about">
+                    <P>
 
-        <div class="intro" style="display: flex;">
-            <div>
-                <img src="LOGO.png" alt="logo image" height="200">
+                        Fit Bud is passionately committed to helping individuals achieve their fitness goals by
+                        providing personalized fitness plans designed by expert coaches and nutritionists. Our
+                        comprehensive services include virtual training sessions, allowing you to connect with our
+                        trainers for real-time guidance and motivation from the comfort of your home.
+                        We also offer seamless progress tracking through our intuitive app, enabling you to monitor your
+                        workouts, nutrition, and overall health effortlessly. Additionally, our supportive community of
+                        fitness enthusiasts is here to inspire and encourage you on your fitness journey.
+                        With Fit Bud, you receive expert guidance and a personalized approach tailored to your unique
+                        needs. The convenience of virtual training and mobile app access ensures that your fitness
+                        journey is smooth and efficient. Our vibrant community offers unwavering motivation and support,
+                        making your fitness journey not only enjoyable but also rewarding.
+                        At Fit Bud, we go beyond being just a fitness service. We are a dedicated partner in helping you
+                        become the best version of yourself. Welcome to Fit Bud – where your fitness journey begins and
+                        your aspirations take flight!
+
+                    </P>
+                </div>
             </div>
-            <div class="about">
-                <P>Fit Bud is committed to helping individuals achieve their    fitness goals by providing personalized
-                    fitness plans designed by expert coaches and nutritionists. Our comprehensive services include
-                    virtual training sessions that allow you to connect with our trainers for real-time guidance and
-                    motivation from the comfort of your home. We also offer progress tracking through our intuitive app,
-                    enabling you to monitor your workouts, nutrition, and overall health effortlessly. Additionally, our
-                    supportive community of fitness enthusiasts is here to inspire and encourage you on your fitness
-                    journey. With Fit Bud, you receive expert guidance, a personalized approach tailored to your unique
-                    needs, and the convenience of virtual training and mobile app access. Our vibrant community offers
-                    motivation and support, making your fitness journey enjoyable and rewarding. At Fit Bud, we are more
-                    than just a fitness service; we are a dedicated partner in helping you become the best version of
-                    yourself. Welcome to Fit Bud – where your fitness journey begins!
+    </div>
+    </section>
+
+    <!-- review -->
+    <section id="review">
+        <div class="reviews">
+            <div class="rev">
+                <img src="p1.png" alt="review person image" class="r-img">
+                <p class="r-text"><i>"Customer support is responsive and helpfull" </i></p>
+                <p class="r-name">~reviewer</p>
+            </div>
+            <div class="rev">
+                <img src="p2.png" alt="review person image" class="r-img">
+                <p class="r-text"><i>"Customer support is responsive and helpfull" </i></p>
+                <p class="r-name">~reviewer</p>
+            </div>
+            <div class="rev">
+                <img src="p3.png" alt="review person image" class="r-img">
+                <p class="r-text"><i>"Customer support is responsive and helpfull" </i></p>
+                <p class="r-name">~reviewer</p>
+            </div>
+            <div class="rev">
+                <img src="p4.png" alt="review person image" class="r-img">
+                <p class="r-text"><i>"Customer support is responsive and helpfull" </i></p>
+                <p class="r-name">~reviewer</p>
+            </div>
+            <div class="rev">
+                <img src="p1.png" alt="review person image" class="r-img">
+                <p class="r-text"><i>"Customer support is responsive and helpfull" </i></p>
+                <p class="r-name">~reviewer</p>
+            </div>
+            <div class="rev">
+                <img src="p2.png" alt="review person image" class="r-img">
+                <p class="r-text"><i>"Customer support is responsive and helpfull" </i></p>
+                <p class="r-name">~reviewer</p>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- FORM -->
+    <section id="Booking">
+        <div class="form">
+            <h2>FILL THIS FORM TO GET YOUR PERSONALIZED FITNESS PLAN</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" placeholder="enter your name">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="number">Phone Number:</label>
+                    <input type="tel" placeholder="enter your mobile number" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="enter your email id" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="height">Height (cm):</label>
+                    <input type="number" placeholder="enter your current height" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="weight">Weight (kg):</label>
+                    <input type="number" placeholder="enter your current weight" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="target-height">Target Height (cm):</label>
+                    <input type="number" placeholder="enter your target height">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="target-weight">Target Weight (kg):</label>
+                    <input type="number" placeholder="enter your target weight">
+                </div>
+                <br>
+                <div class="form-group">
+                    <input type="submit" value="Get your personalized Fitness Plan">
+                </div>
+                <br>
+            </form>
+        </div>
+    </section>
+    <!-- merch -->
+    <section id="Shop">
+        <h3 class="merch-head">GET YOUR MERCH FROM HERE</h3>
+        <div class="merch">
 
-    <div class="reviews">
+            <div class="item">
+                <img src="merch 1.jpg" alt="merge">
+                <!-- <p></p> -->
+                <h4>Get This merch right now</h4>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="item">
+                <img src="merch 2.jpg" alt="merge">
+                <!-- <p></p> -->
+                <h4>Get This merch right now</h4>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="item">
+                <img src="merch 3.jpg" alt="merge">
+                <!-- <p></p> -->
+                <h4>Get This merch right now</h4>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="item">
+                <img src="merch 4.jpeg" alt="merge">
+                <!-- <p></p> -->
+                <h4>Get This merch right now</h4>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="item">
+                <img src="merch 5.jpeg" alt="merge">
+                <!-- <p></p> -->
+                <h4>Get This merch right now</h4>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="item">
+                <img src="merch 1.jpg" alt="merge">
+                <!-- <p></p> -->
+                <h4>Get This merch right now</h4>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="item">
+                <img src="merch 2.jpg" alt="merge">
+                <!-- <p></p> -->
+                <h4>Get This merch right now</h4>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="item">
+                <img src="merch 3.jpg" alt="merge">
+                <!-- <p></p> -->
+                <h4>Get This merch right now</h4>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="item">
+                <img src="merch 4.jpeg" alt="merge">
+                <!-- <p></p> -->
+                <h4>Get This merch right now</h4>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="item">
+                <img src="merch 5.jpeg" alt="merge">
+                <!-- <p></p> -->
+                <h4>Get This merch right now</h4>
+                <a href="#">Buy Now</a>
+            </div>
+        </div>
+    </section>
 
-    </div>
-
-
+<!-- footer -->
+    <footer>
+        <p>&copy; 2025 Fit bud All Rights Recieved</p>
+    </footer>
 </body>
 
 </html>
